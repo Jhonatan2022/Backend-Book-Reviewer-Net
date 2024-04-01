@@ -1,0 +1,26 @@
+{
+  "name": "backend-book-reviewer-net",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Node.JS and Express.JS online book review application, final project.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.0",
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "space-before-function-paren": "off"
+    }
+  }
+}
