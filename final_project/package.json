@@ -22,7 +22,8 @@
     "extends": "standard",
     "rules": {
       "space-before-function-paren": "off",
-      "camelcase": "off"
+      "camelcase": "off",
+      "prefer-promise-reject-errors": "off"
     }
   }
 }
